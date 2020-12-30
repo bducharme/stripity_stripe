@@ -210,6 +210,7 @@ defmodule Stripe.ConverterTest do
     expected_result = %Stripe.Discount{
       coupon: %Stripe.Coupon{
         amount_off: nil,
+        applies_to: nil,
         created: 1_532_358_691,
         currency: nil,
         duration: "repeating",
@@ -227,6 +228,7 @@ defmodule Stripe.ConverterTest do
       customer: "cus_DCUJlLSyrGaqab",
       end: 1_595_517_288,
       object: "discount",
+      promotion_code: "promo_1HuRNuKKEsQW5O8UAfIZ33ox",
       start: 1_532_358_888,
       subscription: "sub_DG9Uq9WOevR9Uo"
     }

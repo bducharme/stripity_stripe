@@ -4,6 +4,7 @@
     "id": "student-discount",
     "object": "coupon",
     "amount_off": null,
+    "applies_to": null,
     "created": 1532358691,
     "currency": null,
     "duration": "repeating",
@@ -18,6 +19,7 @@
   },
   "customer": "cus_DCUJlLSyrGaqab",
   "end": 1595517288,
+  "promotion_code": "promo_1HuRNuKKEsQW5O8UAfIZ33ox",
   "start": 1532358888,
   "subscription": "sub_DG9Uq9WOevR9Uo"
 }

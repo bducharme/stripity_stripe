@@ -13,6 +13,7 @@ defmodule Stripe.Discount do
           customer: Stripe.id() | Stripe.Customer.t() | nil,
           deleted: boolean | nil,
           end: Stripe.timestamp() | nil,
+          promotion_code: Stripe.id() | nil,
           start: Stripe.timestamp(),
           subscription: Stripe.id() | nil
         }
@@ -23,6 +24,7 @@ defmodule Stripe.Discount do
     :customer,
     :deleted,
     :end,
+    :promotion_code,
     :start,
     :subscription
   ]
